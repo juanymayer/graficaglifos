@@ -4,9 +4,15 @@
   box-sizing: border-box;
 }
 
+.container, .navbar-list {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
   height: 30px;
   /* background-color: rgb(255, 0, 179); */
+  background-color: #ff0479;
   padding: 10px 10px;
   z-index: 1;
   font-family: "Montserrat", sans-serif;
@@ -88,10 +94,16 @@ a {
 
 body {
   height: 650px;
-  background-image: url("./Assets/fondo final.jpg");
+  background-color: #6e3952;
   background-size: cover;
   /* background-attachment: fixed; */
   /* overflow: hidden; */
+}
+
+.productos__destacados {
+  text-justify: auto;
+  justify-content: center;
+  color: #ff0479;
 }
 
 .card {

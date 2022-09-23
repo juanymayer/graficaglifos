@@ -1,6 +1,9 @@
 .header {
     height: 30px;
+    // max-width: 1200px;
+    // margin: 0 auto;
     /* background-color: rgb(255, 0, 179); */
+    background-color: $primary;
     padding: 10px 10px;
     z-index: 1;
     font-family: 'Montserrat', sans-serif;
@@ -18,6 +21,7 @@ align-items: center;
 }
 
 .navbar-list {
+    @extend .container;
     margin: 15px 5px 15px 500px;
     max-width: 1200px;
     

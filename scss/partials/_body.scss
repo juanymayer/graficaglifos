@@ -1,9 +1,16 @@
 body {
         
     height: 650px;
-    background-image: url("./Assets/fondo\ final.jpg");
+    background-color: $bgcolor;
         
         background-size: cover;
         /* background-attachment: fixed; */
         /* overflow: hidden; */
 }
+
+.productos__destacados {
+   margin left: 600px;
+   
+ 
+    
+    }
